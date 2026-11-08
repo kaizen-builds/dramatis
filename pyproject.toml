@@ -1,0 +1,15 @@
+[project]
+name = "dramatis"
+version = "1.0.0"
+description = "Spoiler-safe EPUB reading companion for Hermes Agent"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+# EPUB indexing uses the Python standard library only.
+dependencies = []
+
+[project.urls]
+Homepage = "https://hermes-agent.nousresearch.com/docs/developer-guide/plugins"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
